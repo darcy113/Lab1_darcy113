@@ -16,7 +16,7 @@ def load_csv_data():
     assignments = []
     try:
         with open(filename, mode='r', encoding='utf-8') as file:
-            reader = csv.DictReader(file, delimiter='\t')
+            reader = csv.DictReader(file, delimiter=',')
             for row in reader:
                 assignments.append({
                     'assignment': row['assignment'],

@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Check if archive directory exists, if not create it
@@ -30,3 +31,4 @@ echo "Created new empty grades.csv."
 # Log the operation
 echo "[$TIMESTAMP] Archived: $ORIGINAL -> archive/$ARCHIVED" >> organizer.log
 echo "Logged operation to organizer.log."
+
